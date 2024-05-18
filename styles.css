@@ -1,0 +1,63 @@
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  margin-right: 10px;
+}
+
+.submit {
+  background-color: black;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 5px;
+}
+
+.cancel {
+  height: 40px;
+  width: 100px;
+
+  border-radius: 5px;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.passport-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.passport-input {
+  flex: 1;
+}
